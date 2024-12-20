@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Personal Life 🐱!</title>
+    <style>
+        /* Previous CSS styles remain the same */
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('gif3.gif');
+            background-size: cover; 
+            background-attachment: fixed;
+            line-height: 1.6;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.7);
+            color: black;
+            text-align: center;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Lucida Handwriting', cursive;
+            text-shadow: 2px 2px 4px #555;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: #FFB6C1;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid white;
+            border-radius: 15px;
+            margin: 0 5px;
+            background-color: #F5F5DC;
+            transition: 0.3s ease;
+        }
+        nav a:hover {
+            background-color: rgba(255, 182, 193, 0.8);
+            color: black;
+        }
+        .section-box {
+            background-color: rgba(255, 249, 196, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            width: 90%;
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .cat-ear {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #F5B7B1;
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            animation: ear-move 1s ease-in-out infinite alternate;
+        }
+        .cat-ear-left {
+            left: -25px;
+            top: 10px;
+            transform: rotate(-30deg);
+        }
+        .cat-ear-right {
+            right: -25px;
+            top: 10px;
+            transform: rotate(30deg);
+        }
+
+	#home {
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	text-align: center;
+	}
+
+	#home p {
+    	max-width: 600px;
+    	margin: 10px auto;
+		}
+
+	#home video {
+   	max-width: 100%;
+    	width: 600px;
+    	margin: 20px auto;
+	}
+
+
+        @keyframes ear-move {
+            0% {
+                transform: rotate(-30deg) translateY(0);
+            }
+            100% {
+                transform: rotate(-30deg) translateY(5px);
+            }
+	
+        }
+        /* Image Frame Styling */
+        section img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #FFCCBC;
+            padding: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+         </style>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Life 🐱!</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about-me.html">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="education.html">Education</a>
+            <a href="family.html">Family</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+<section id="home" class="section-box">
+        <div class="cat-ear cat-ear-left"></div>
+        <div class="cat-ear cat-ear-right"></div>
+        <img src="anime1.jpg" alt="anime1"> 
+        <h1><p>Hye, My name is IKAH 🌼!</p></h1>
+        <p>Let's get to know me better!</p>
+        <p>Listen to this song while reading about me >o<</p>
+        <!-- Add video below the text -->
+        <video controls>
+            <source src="enhypenmv.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
